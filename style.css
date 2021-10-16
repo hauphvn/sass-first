@@ -1,0 +1,36 @@
+.btn-red, .btn-blue, .btn-yellow {
+  padding: 12px 16px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.btn-red {
+  background-color: #d81b60;
+  color: #212121 !important;
+}
+
+.btn-red:hover {
+  opacity: .8;
+}
+
+.btn-blue {
+  background-color: #1565c0;
+  color: #fff !important;
+}
+
+.btn-blue:hover {
+  opacity: .8;
+}
+
+.btn-yellow {
+  background-color: #fdd835;
+  color: #212121 !important;
+}
+
+.btn-yellow:hover {
+  opacity: .8;
+}
+/*# sourceMappingURL=style.css.map */

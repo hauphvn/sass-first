@@ -1,0 +1,9 @@
+@import './variables';
+@mixin mxTextColor($pBGColor) {
+    @if $pBGColor==$color-red or $pBGColor==$color-yellow {
+        color: $color-black !important;
+    }
+    @else if $pBGColor==$color-blue {
+        color: $color-white !important;
+    }
+}
